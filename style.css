@@ -1,6 +1,7 @@
 body {
   background-color: black;
   color: red;
+  display: flex;
 }
 a{
   text-decoration: none;
