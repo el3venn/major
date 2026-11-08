@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  color: red;
+}
+a{
+  text-decoration: none;
+  color: black;
+  background-color: red;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 20px;
+}
+footer{
+  color: white;
+  background-color: red;
+  padding: 15px;
+  font-family: Impact;
+  
+}
