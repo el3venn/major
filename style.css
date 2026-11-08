@@ -10,6 +10,7 @@ a{
   padding: 5px;
   border-radius: 10px;
   margin: 20px;
+  
 }
 footer{
   color: white;
@@ -44,4 +45,11 @@ header{
     animation-duration: 1.5s;
     animation-iterarion-count: infinite;
   }
+a:hover {
+    background-color: orange;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+  a:active {
+    transform: scale(0.95);
+}
   
