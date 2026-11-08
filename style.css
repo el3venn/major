@@ -43,7 +43,7 @@ header{
   .pgl{
     animation-name: pulse;
     animation-duration: 1.5s;
-    animation-iterarion-count: infinite;
+    animation-iterarion-count: infinity;
   }
 a:hover {
     background-color: orange;
