@@ -28,4 +28,20 @@ header{
   align-items: center;
   
 }
+@keyframes pulse {
+0%{
+  transform: scale(1);
+}
+ 50%{
+   transform: scale(1.1);
+ } 
+  100%{
+    transform: scale(1);
+  }
+}
+  .pgl{
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-iterarion-count: infinite;
+  }
   
