@@ -52,7 +52,7 @@ a:hover {
   a:active {
     transform: scale(0.95);
 }
-  .cartynky{
+  .c{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
