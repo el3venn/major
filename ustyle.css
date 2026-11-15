@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  color: red;
+  
+}
+a{
+  text-decoration: none;
+  color: black;
+  background-color: red;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 20px;
+  
+}
+footer{
+  color: white;
+  background-color: red;
+  padding: 15px;
+  font-family: Impact;
+  
+}
+main img{
+  width: 200px;
+  height: 250px;
+}
+header{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+@keyframes pulse {
+0%{
+  transform: scale(1);
+}
+ 50%{
+   transform: scale(1.1);
+ } 
+  100%{
+    transform: scale(1);
+  }
+}
+  .pgl{
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-iterarion-count: infinity;
+  }
+a:hover {
+    background-color: orange;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+  a:active {
+    transform: scale(0.95);
+}
+  .cartynky{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
